@@ -1,0 +1,25 @@
+using System;  // Namespace for standard input-output
+
+class Program
+{
+    // Method to greet
+    static void Greet()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+
+    // Method to add two numbers
+    static int AddNumbers(int a, int b)
+    {
+        return a + b;
+    }
+
+    // Main method
+    static void Main(string[] args)
+    {
+        Greet();  // Call the Greet method
+
+        int result = AddNumbers(5, 3);  // Add 5 and 3
+        Console.WriteLine("The sum is: " + result);  // Print the result
+    }
+}
